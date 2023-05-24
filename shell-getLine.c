@@ -8,7 +8,7 @@
  *
  * Return: data read
  */
- 
+
 ssize_t input_buf(info_t *info, char **buf, size_t *len)
 {
 	ssize_t r = 0;
@@ -51,7 +51,7 @@ ssize_t input_buf(info_t *info, char **buf, size_t *len)
  *
  * Return: data read
  */
- 
+
 ssize_t get_input(info_t *info)
 {
 	static char *buf; /* the command chain buffer ';' */
@@ -99,7 +99,7 @@ ssize_t get_input(info_t *info)
  *
  * Return: r
  */
- 
+
 ssize_t read_buf(info_t *info, char *buf, size_t *i)
 {
 	ssize_t r = 0;
@@ -120,7 +120,7 @@ ssize_t read_buf(info_t *info, char *buf, size_t *i)
  *
  * Return: s
  */
- 
+
 int _getline(info_t *info, char **ptr, size_t *length)
 {
 	static char buf[READ_BUF_SIZE];
@@ -166,7 +166,7 @@ int _getline(info_t *info, char **ptr, size_t *length)
  *
  * Return: void
  */
- 
+
 void sigintHandler(__attribute__((unused))int sig_num)
 {
 	_puts("\n");

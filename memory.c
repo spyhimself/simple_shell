@@ -6,7 +6,7 @@
  *
  * Return: If released, 1; else, 0.
  */
- 
+
 int bfree(void **ptr)
 {
 	if (ptr && *ptr)

@@ -7,7 +7,7 @@
  *
  * Return: 0 for success, 1 for failure, or error code
  */
- 
+
 int hsh(info_t *info, char **av)
 {
 	ssize_t r = 0;
@@ -49,11 +49,11 @@ int hsh(info_t *info, char **av)
  * @info: the argument and return information struct
  *
  * Return: If no builtin is discovered, -1 is returned.
- * 	If the builtin was properly performed, the value is 0.
- * 	1 if a builtin is discovered but not used,
- * 	2 exit() if builtin signals
+ * If the builtin was properly performed, the value is 0.
+ * 1 if a builtin is discovered but not used,
+ * 2 exit() if builtin signals
  */
- 
+
 int find_builtin(info_t *info)
 {
 	int i, built_in_ret = -1;
@@ -85,7 +85,7 @@ int find_builtin(info_t *info)
  *
  * Return: void
  */
- 
+
 void find_cmd(info_t *info)
 {
 	char *path = NULL;
@@ -128,7 +128,7 @@ void find_cmd(info_t *info)
  *
  * Return: void
  */
- 
+
 void fork_cmd(info_t *info)
 {
 	pid_t child_pid;

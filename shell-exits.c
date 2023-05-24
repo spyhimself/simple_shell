@@ -7,7 +7,7 @@
  *@n: the number of characters that must be copied
  *Return: the string that has been concatenated
  */
- 
+
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i, f;
@@ -38,7 +38,7 @@ char *_strncpy(char *dest, char *src, int n)
  *@n: the maximum number of bytes to be utilized
  *Return: the string that has been concatenated
  */
- 
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, f;
@@ -65,7 +65,7 @@ char *_strncat(char *dest, char *src, int n)
  *@c: the person to seek out
  *Return: (s) a reference to the memory space s
  */
- 
+
 char *_strchr(char *s, char c)
 {
 	do {

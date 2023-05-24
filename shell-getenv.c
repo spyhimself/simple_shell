@@ -6,7 +6,7 @@
  *          The prototype of a constant function.
  * Return: Always zero
  */
- 
+
 char **get_environ(info_t *info)
 {
 	if (!info->environ || info->env_changed)
@@ -25,7 +25,7 @@ char **get_environ(info_t *info)
  *  Return: If you erase something, you get a 1, else you get a 0
  * @var: the string environment variable
  */
- 
+
 int _unsetenv(info_t *info, char *var)
 {
 	list_t *node = info->env;
@@ -60,7 +60,7 @@ int _unsetenv(info_t *info, char *var)
  * @value: the value of the string env var
  *  Return: Always zero
  */
- 
+
 int _setenv(info_t *info, char *var, char *value)
 {
 	char *buf = NULL;

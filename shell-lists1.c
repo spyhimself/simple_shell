@@ -6,7 +6,7 @@
  *
  * Return: list length
  */
- 
+
 size_t list_len(const list_t *h)
 {
 	size_t i = 0;
@@ -25,7 +25,7 @@ size_t list_len(const list_t *h)
  *
  * Return: a string array
  */
- 
+
 char **list_to_strings(list_t *head)
 {
 	list_t *node = head;
@@ -63,7 +63,7 @@ char **list_to_strings(list_t *head)
  *
  * Return: length of the list
  */
- 
+
 size_t print_list(const list_t *h)
 {
 	size_t i = 0;
@@ -89,7 +89,7 @@ size_t print_list(const list_t *h)
  *
  * Return: node that matches or null
  */
- 
+
 list_t *node_starts_with(list_t *node, char *prefix, char c)
 {
 	char *p = NULL;
@@ -111,7 +111,7 @@ list_t *node_starts_with(list_t *node, char *prefix, char c)
  *
  * Return: node index or -1
  */
- 
+
 ssize_t get_node_index(list_t *head, list_t *node)
 {
 	size_t i = 0;

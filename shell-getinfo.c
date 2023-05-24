@@ -4,7 +4,7 @@
  * clear_info - creates the info_t struct
  * @info: address of a structure
  */
- 
+
 void clear_info(info_t *info)
 {
 	info->arg = NULL;
@@ -18,7 +18,7 @@ void clear_info(info_t *info)
  * @info: address of a structure
  * @av: vector of argumentation
  */
- 
+
 void set_info(info_t *info, char **av)
 {
 	int i = 0;
@@ -50,7 +50,7 @@ void set_info(info_t *info, char **av)
  * @info: address of a structure
  * @all: true if all fields are freed
  */
- 
+
 void free_info(info_t *info, int all)
 {
 	ffree(info->argv);

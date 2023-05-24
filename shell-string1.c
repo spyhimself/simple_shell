@@ -7,7 +7,7 @@
  *
  * Return: destination pointer
  */
- 
+
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
@@ -29,7 +29,7 @@ char *_strcpy(char *dest, char *src)
  *
  * Return: a reference to the duplicated string
  */
- 
+
 char *_strdup(const char *str)
 {
 	int length = 0;
@@ -53,7 +53,7 @@ char *_strdup(const char *str)
  *
  * Return: Nothing
  */
- 
+
 void _puts(char *str)
 {
 	int i = 0;
@@ -74,7 +74,7 @@ void _puts(char *str)
  * Return: Regarding success 1
  * In the event of an error, -1 is returned and errno is set properly.
  */
- 
+
 int _putchar(char c)
 {
 	static int i;

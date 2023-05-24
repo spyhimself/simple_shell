@@ -6,7 +6,7 @@
  *
  * Return: Nothing
  */
- 
+
 void _eputs(char *str)
 {
 	int i = 0;
@@ -27,7 +27,7 @@ void _eputs(char *str)
  * Return: Regarding success 1.
  * On error,The value -1 is returned, and errno is suitably set.
  */
- 
+
 int _eputchar(char c)
 {
 	static int i;
@@ -51,7 +51,7 @@ int _eputchar(char c)
  * Return: Regarding success 1.
  * On error, The value -1 is returned, and errno is suitably set.
  */
- 
+
 int _putfd(char c, int fd)
 {
 	static int i;
@@ -74,7 +74,7 @@ int _putfd(char c, int fd)
  *
  * Return: the number of characters entered
  */
- 
+
 int _putsfd(char *str, int fd)
 {
 	int i = 0;

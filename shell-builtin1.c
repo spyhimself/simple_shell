@@ -7,7 +7,7 @@
  *        prototype of a constant function.
  *  Return: Always 0
  */
- 
+
 int _myhistory(info_t *info)
 {
 	print_list(info->history);
@@ -21,7 +21,7 @@ int _myhistory(info_t *info)
  *
  * Return: Always 0 for success, 1 for failure.
  */
- 
+
 int unset_alias(info_t *info, char *str)
 {
 	char *p, c;
@@ -45,7 +45,7 @@ int unset_alias(info_t *info, char *str)
  *
  * Return: Always 0 for success, 1 for failure.
  */
- 
+
 int set_alias(info_t *info, char *str)
 {
 	char *p;
@@ -66,7 +66,7 @@ int set_alias(info_t *info, char *str)
  *
  * Return: Always 0 for success, 1 for failure.
  */
- 
+
 int print_alias(list_t *node)
 {
 	char *p = NULL, *a = NULL;
@@ -90,7 +90,7 @@ int print_alias(list_t *node)
  *          The prototype of a constant function.
  *  Return: Always 0
  */
- 
+
 int _myalias(info_t *info)
 {
 	int i = 0;

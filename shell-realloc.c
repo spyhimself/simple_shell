@@ -7,7 +7,7 @@
  * @n: the number of bytes that must be filled
  * Return: (s) a reference to the memory space s
  */
- 
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
@@ -21,7 +21,7 @@ char *_memset(char *s, char b, unsigned int n)
  * ffree - a string of strings is released
  * @pp: a series of strings
  */
- 
+
 void ffree(char **pp)
 {
 	char **a = pp;
@@ -41,7 +41,7 @@ void ffree(char **pp)
  *
  * Return: nameen is a pointer to the old block
  */
- 
+
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *p;

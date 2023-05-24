@@ -6,7 +6,7 @@
  * Return: If there are no numbers in the string, return 0; otherwise, return the converted number
  *       -1 for mistake
  */
- 
+
 int _erratoi(char *s)
 {
 	int i = 0;
@@ -36,7 +36,7 @@ int _erratoi(char *s)
  * Return: If there are no numbers in the string, return 0; otherwise, return the converted number.
  *        -1 for mistake
  */
- 
+
 void print_error(info_t *info, char *estr)
 {
 	_eputs(info->fname);
@@ -55,7 +55,7 @@ void print_error(info_t *info, char *estr)
  *
  * Return: amount of printed characters
  */
- 
+
 int print_d(int input, int fd)
 {
 	int (*__putchar)(char) = _putchar;
@@ -96,7 +96,7 @@ int print_d(int input, int fd)
  *
  * Return: string
  */
- 
+
 char *convert_number(long int num, int base, int flags)
 {
 	static char *array;
@@ -131,7 +131,7 @@ char *convert_number(long int num, int base, int flags)
  *
  * Return: Always zero
  */
- 
+
 void remove_comments(char *buf)
 {
 	int i;

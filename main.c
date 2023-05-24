@@ -7,7 +7,7 @@
  *
  * Return: 0 for success, 1 for failure
  */
- 
+
 int main(int ac, char **av)
 {
 	info_t info[] = { INFO_INIT };

@@ -54,7 +54,7 @@ char **strtow(char *str, char *d)
  * @d: the thermometer
  * Return: a reference to a string array, or NULL on failure
  */
- 
+
 char **strtow2(char *str, char d)
 {
 	int i, f, k, l, numwords = 0;
