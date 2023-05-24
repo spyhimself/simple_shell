@@ -3,7 +3,7 @@
 /**
  * _erratoi - translates a string to an integer
  * @s: the string that will be transformed
- * Return: If there are no numbers in the string, return 0; otherwise, return the converted number
+ * Return: Return 0 if thr ar no number in string;else return converted number
  *       -1 for mistake
  */
 
@@ -33,7 +33,7 @@ int _erratoi(char *s)
  * print_error - generates an error message
  * @info: the argument and return information struct
  * @estr: string conveying the given kind of error
- * Return: If there are no numbers in the string, return 0; otherwise, return the converted number.
+ * Return: If ther ar no number in string,return 0;else,return converted number
  *        -1 for mistake
  */
 
