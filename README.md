@@ -1,1 +1,1 @@
-simple shell by Ayyoub Chentih and Ayman TARAR
+Simple Shell by Ayyoub Chentih and Ayman TARAR
