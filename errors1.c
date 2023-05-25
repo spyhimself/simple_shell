@@ -27,6 +27,7 @@ int _erratoi(char *s)
 			return (-1);
 	}
 	return (result);
+
 }
 
 /**
